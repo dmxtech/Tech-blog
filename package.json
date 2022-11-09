@@ -22,6 +22,7 @@
   },
   "homepage": "https://github.com/dmxtech/Tech-blog#readme",
   "dependencies": {
+    "connect-session-sequelize": "^7.1.5",
     "connection": "^1.4.0",
     "controllers": "^0.0.2",
     "dotenv": "^16.0.3",
@@ -30,6 +31,7 @@
     "express-session": "^1.17.3",
     "handlebars": "^4.7.7",
     "helpers": "^0.0.6",
+    "mysql2": "^2.3.3",
     "path": "^0.12.7",
     "sequelize": "^6.25.5",
     "session": "^0.1.0"
