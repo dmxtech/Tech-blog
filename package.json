@@ -22,6 +22,7 @@
   },
   "homepage": "https://github.com/dmxtech/Tech-blog#readme",
   "dependencies": {
+    "bcrypt": "^5.1.0",
     "connect-session-sequelize": "^7.1.5",
     "connection": "^1.4.0",
     "controllers": "^0.0.2",
