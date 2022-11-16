@@ -4,7 +4,7 @@
 <div>
     <h3>Create a New Post:</h3>
 </div>
-<form>
+<form class="form new-post-form">
     <div>
         <label for="post-title">post-title:</label>
         <input type="text" id="post-title" name="post-title" />
@@ -17,15 +17,15 @@
         <button type="submit" class="btn btn-primary">Create</button>
     </div>
 </form>
-{{#if projects.length}}
-<h3>Current Projects:</h3>
-{{#each projects as |project|}}
+{{#if posts.length}}
+<h3>Current posts:</h3>
+{{#each posts as |post|}}
 <div>
-    <h4><a href="/project/{{project.id}}">{{project.name}}</a></h4>
+    <h4><a href="/post/{{post.id}}">{{post.name}}</a></h4>
 </div>
 <div>
-    <button data-id="{{project.id}}">DELETE</button>
+    <button data-id="{{post.id}}">DELETE</button>
 </div>
 {{/each}}
 {{/if}}
-<script src="../public/js/profile.js"></script>
+<script src="./js/profile.js"></script>
