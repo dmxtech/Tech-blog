@@ -17,10 +17,12 @@
         <button id="logout">logout</button>
         {{else}}
         <a href="/login">login</a>
+        <a href="/signup">signup</a>
         {{/if}}
     </nav>
     {{#if logged_in}}
     <script src="/js/logout.js"></script>
+    <script src="./js/signup.js"></script>
     {{/if}}
     <main>
         {{{ body }}}
