@@ -14,7 +14,7 @@ router.get('/', async (req, res) => {
         });
 
         const posts = postData.map((post) => post.get({ plain: true }));
-
+        console.log("posts", posts);
         res.render('homepage', {
             posts,
             logged_in: req.session.logged_in
@@ -56,7 +56,7 @@ router.get('/profile', withAuth, async (req, res) => {
         });
 
         const user = userData.get({ plain: true });
-
+        console.log("user", user);
         res.render('profile', {
             ...user,
             logged_in: true

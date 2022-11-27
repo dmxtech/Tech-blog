@@ -1,6 +1,14 @@
 <div class="text-center">
-    <h2>{{title}}</h2>
+    <a href="/edit/">{{title}}</a>
     <p>{{description}}</p>
-    <p>Created by {{user.name}} on {{format_date date_created}}</p>
+
+    <p>Created by
+        {{User.name}}
+        on {{format_date date_created}} by id: {{user_id}}</p>
     <p>
+    <div>
+        <button type="submit" id="delete-btn" delete-btn="{{id}}">DELETE</button>
+    </div>
 </div>
+
+<script src="/js/delete.js"></script>

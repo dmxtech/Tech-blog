@@ -1,0 +1,23 @@
+<h2>Edit Post</h2>
+
+<form id="edit-post-form">
+    <input type="hidden" id="id" value="{{id}}" />
+
+    <label for="title">
+        <h3>Title</h3>
+    </label>
+    <input type="text" id="title" value="{{title}}" />
+
+    <label for="description">
+        <h3>Content</h4>
+    </label>
+    <textarea id="description">{{description}}</textarea>
+
+    <button type="submit" id="update-btn">Update</button>
+
+    <button type="button" id="delete-btn" class="btn">Delete</button>
+</form>
+</div>
+
+<script src="/js/edit.js"></script>
+<script src="/js/delete.js"></script>

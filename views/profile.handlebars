@@ -13,18 +13,19 @@
         <label for="post-desc">description:</label>
         <textarea id="post-desc" name="post-desc"></textarea>
     </div>
-    <div class="form-group">
+    <div class="post-list">
         <button type="submit" class="btn btn-primary">Create</button>
     </div>
 </form>
-{{#if posts.length}}
 <h3>Current posts:</h3>
-{{#each posts as |post|}}
+{{#if Posts.length}}
+
+{{#each Posts as |post|}}
 <div>
-    <h4><a href="/post/{{post.id}}">{{post.name}}</a></h4>
+    <h4><a href="/posts/{{post.id}}">{{post.title}}</a></h4>
 </div>
 <div>
-    <button data-id="{{post.id}}">DELETE</button>
+    <button class="post-id" post-id="{{post.id}}">DELETE</button>
 </div>
 {{/each}}
 {{/if}}

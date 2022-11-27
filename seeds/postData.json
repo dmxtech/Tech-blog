@@ -2,16 +2,19 @@
   {
     "title": "post test",
     "user_id": 1,
-    "description": "A mobile app that will send you notifications whenever a concert is playing in your area."
+    "description": "A mobile app that will send you notifications whenever a concert is playing in your area.",
+    "date_created": "11/15/2022"
   },
   {
     "title": "The Ultimate Tech Quiz",
     "user_id": 2,
-    "description": "A web app that will give users 10 new technical questions each day and track their progress in things like programming, cybersecurity, database architecture, and more!"
+    "description": "A web app that will give users 10 new technical questions each day and track their progress in things like programming, cybersecurity, database architecture, and more!",
+    "date_created": "11/15/2022"
   },
   {
     "title": "Roll 'Em Up",
     "user_id": 3,
-    "description": "A game for Windows and macOS where players move a ball through a series of increasingly challenging mazes."
+    "description": "A game for Windows and macOS where players move a ball through a series of increasingly challenging mazes.",
+    "date_created": "11/15/2022"
   }
 ]
